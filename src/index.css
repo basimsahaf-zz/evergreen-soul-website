@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+
+.sectionOne {
+    background: url(files/Photos/secOne.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.sectionTwo {
+    height: 50vh;  
+    padding: 3%;
+}
+
+.sectionOneText {
+    margin-top: 20vh;
+}
+
+.sectionOneHeader {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.sectionOnetagLine {
+    font-size: 160%;
+    word-spacing: 1px;
+    letter-spacing: 0.1px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin-left: 8vw;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    margin: 2% 0.5%;
+    height: 6vh;  
+    border-radius: 5px;
+}
+
+.btn-primary.active:hover {
+    background-color: #c0392b;
+}
+
+a:focus, a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: #b71c1c;
+    color: white;
+}
+
+.side-nav a:hover{
+    background-color: #b71c1c;
+}
+
+.sectionTwoHeader {
+    text-align: center;
+    font-size: 350%;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.sectionTwoTagline {
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+.gridSectionTwo {
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.gridCol {
+    text-align: center;
+    padding: 5%;
+}
