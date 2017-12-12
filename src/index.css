@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 
-html {
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-}
-
 body {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -18,7 +13,7 @@ h1 {
 
 
 .sectionOne {
-    background: url(files/Photos/secOne.jpg) no-repeat;
+    background: url(files/Photos/secOne-min.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -26,12 +21,25 @@ h1 {
 }
 
 .sectionTwo {
-    height: 50vh;  
-    padding: 3%;
+    padding: 4%;
+}
+
+.logo {
+  padding: 8%;
+  margin-left: 7vw;
+}
+
+.sectionThree {
+    background-color: #f4f4f4;
+    padding: 4%;
+}
+
+.sectionFour {
+  padding: 4%;
 }
 
 .sectionOneText {
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 
 .sectionOneHeader {
@@ -52,7 +60,7 @@ h1 {
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
     margin: 2% 0.5%;
-    height: 6vh;  
+    height: 6vh;
     border-radius: 5px;
 }
 
@@ -60,9 +68,17 @@ h1 {
     background-color: #c0392b;
 }
 
+a {
+  color: black;
+}
+
 a:focus, a:hover{
     color: black;
     text-decoration: none;
+}
+
+nav {
+  height: 0;
 }
 
 nav ul a:hover {
@@ -79,20 +95,103 @@ nav ul a:hover {
     font-size: 350%;
     padding: 2%;
     font-weight: bold;
+
 }
 
 .sectionTwoTagline {
     text-align: center;
     font-size: 200%;
-    
+
 }
 
 .gridSectionTwo {
     margin: 0 auto;
-    padding: 2%;
+    padding: 1%;
 }
 
 .gridCol {
     text-align: center;
     padding: 5%;
+}
+
+.sectionTwoImageHeadline {
+    padding: 5%;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.sectionTwoImagetagline {
+    font-size: 110%;
+    color: gray;
+}
+
+.sectionTwoJoinUs {
+    font-size: 150%;
+    color: gray;
+    text-align: center;
+    padding: 1%;
+}
+
+.menu {
+    margin-right: 0;
+}
+
+
+.activitiesCard {
+  margin: 10%;
+}
+
+.activityName {
+    padding: 3%;
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.activityName:hover,
+.activityName:active {
+  color: #b71c1c;
+  transition: 0.2s ease-in;
+
+}
+
+.activityDate {
+  padding: 2%;
+}
+
+.card {
+    background-color: transparent;
+    margin: 5%;
+}
+
+
+.white-text {
+    height: 150px;
+}
+
+.gridImage {
+  width: 100%; /* or any custom size */
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+      font-family: 'Lato', sans-serif;
+      font-size: 10px;
+    }
+
+    .jumbotron {
+        background-color: transparent;
+        margin: -5vh 0 0 2vw;
+        padding: 1%;
+    }
+
+    .logo {
+      padding: 8%;
+      margin-left: 0vw;
+    }
 }

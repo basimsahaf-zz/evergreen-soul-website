@@ -9,18 +9,18 @@ module.exports = {
     sec2JoinUs: "Come join us there",
     sec2Grid: [
         {
-            img: "",
+            img: "/files/Photos/outsiders.jpg",
             header: "OUTSIDERS COMMUNITY",
             tagLine: "Learn alongside peers from diverse bagrounds who want to connect with nature"
         },
         
         {
-            img: "",
+            img: "/files/Photos/outsiders.jpg",
             header: "HANDS-ON LEARNING",
             tagLine: "At the heart of our program is learning by doing."
         },
         {
-            img: "",
+            img: "/files/Photos/outsiders.jpg",
             header: "PASSIONATE EXPERTS",
             tagLine: "Learn from and get inspired by true outdoo enthusiasts with years of experience."
         }
@@ -28,43 +28,33 @@ module.exports = {
     sec3Header: "Our Activities",
     sec3grid: [
         {
-            img: "",
             activity: "MOUNTAIN BIKING"
         },
         {
-            img: "",
             activity: "CAMPING"
         },
         {
-            img: "",
             activity: "ARCHERY"
         },
         {
-            img: "",
             activity: "KAYAKING"
         },
         {
-            img: "",
             activity: "BACKPACKING"
         },
         {
-            img: "",
             activity: "ROCK CLIMBING"
         },
         {
-            img: "",
             activity: "HIKING"
         },
         {
-            img: "",
             activity: "FISHING"
         },
         {
-            img: "",
             activity: "NAVIGATING"
         },
         {
-            img: "",
             activity: "STEWARDSHIP"
         }
     ],
