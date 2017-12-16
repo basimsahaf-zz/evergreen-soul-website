@@ -13,7 +13,7 @@ module.exports = {
             header: "OUTSIDERS COMMUNITY",
             tagLine: "Learn alongside peers from diverse bagrounds who want to connect with nature"
         },
-        
+
         {
             img: "/files/Photos/outsiders.jpg",
             header: "HANDS-ON LEARNING",
@@ -27,9 +27,6 @@ module.exports = {
     ],
     sec3Header: "Our Activities",
     sec3grid: [
-        {
-            activity: "MOUNTAIN BIKING"
-        },
         {
             activity: "CAMPING"
         },
@@ -91,7 +88,7 @@ module.exports = {
             date: "June 9-11, 2017"
         },
     ],
-    sec5Header: "Join out community",
+    sec5Header: "Join our community",
     sec5TagLine: "Receive info about classes, adventures and free events in your community.",
     social: [
         {

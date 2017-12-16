@@ -38,8 +38,30 @@ h1 {
   padding: 4%;
 }
 
+.sectionFive {
+  padding: 4%;
+  background-color: #f4f4f4;
+}
+
+.sectionSeven {
+  padding: 4% 4% 0 4%;
+}
+
+footer.page-footer.sectionSeven {
+  padding: 4%;
+}
+
+footer.page-footer {
+  background-color: white;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: white;
+}
+
+
 .sectionOneText {
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
 .sectionOneHeader {
@@ -96,6 +118,13 @@ nav ul a:hover {
     padding: 2%;
     font-weight: bold;
 
+}
+
+.sectionSevenTagline {
+    text-align: left;
+    font-size: 200%;
+    padding: 4%;
+    font-weight: bold;
 }
 
 .sectionTwoTagline {
@@ -163,11 +192,16 @@ nav ul a:hover {
 .card {
     background-color: transparent;
     margin: 5%;
+    box-shadow: none;
 }
 
 
 .white-text {
     height: 150px;
+}
+
+.card .card-action {
+  border: 0;
 }
 
 .gridImage {
@@ -176,6 +210,27 @@ nav ul a:hover {
     object-fit: contain;
 }
 
+.imageStuff {
+  margin-top: 1%;
+}
+
+.img-circle {
+  height: 247px;
+}
+
+/* label focus color */
+  input[type=email]:focus:not([readonly])+ label {
+    color: #000;
+}
+/* label underline focus color */
+  input[type=email]:focus:not([readonly]) {
+    border: none;
+  }
+
+.socialLinks {
+  text-align: left;
+  padding: 4%;
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -193,5 +248,13 @@ nav ul a:hover {
     .logo {
       padding: 8%;
       margin-left: 0vw;
+    }
+
+    .sectionSeven {
+      padding: 10% 4% 0 4%;
+    }
+
+    .img-circle {
+      height: 210px;
     }
 }
