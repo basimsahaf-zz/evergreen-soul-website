@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-
-
 body {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
-
 h1 {
     font-weight: bold;
 }
-
-
-
 .sectionOne {
     background: url(files/Photos/secOne-min.jpg) no-repeat;
     background-position: center;
@@ -19,157 +13,125 @@ h1 {
     height: 100vh;
     color: white;
 }
-
 .sectionTwo {
     padding: 4%;
 }
-
 .logo {
-  padding: 8%;
-  margin-left: 7vw;
+    padding: 8%;
+    margin-left: 7vw;
 }
-
 .sectionThree {
     background-color: #f4f4f4;
     padding: 4%;
 }
-
 .sectionFour {
-  padding: 4%;
+    padding: 4%;
 }
-
 .sectionFive {
-  padding: 4%;
-  background-color: #f4f4f4;
+    padding: 4%;
+    background-color: #f4f4f4;
 }
-
 .sectionSeven {
-  padding: 4% 4% 0 4%;
+    padding: 4% 4% 0 4%;
 }
-
 footer.page-footer.sectionSeven {
-  padding: 4%;
+    padding: 4%;
 }
-
 footer.page-footer {
-  background-color: white;
+    background-color: white;
 }
-
 footer.page-footer .footer-copyright {
-  background-color: white;
+    background-color: white;
 }
-
-
 .sectionOneText {
     margin-top: 30vh;
 }
-
 .sectionOneHeader {
     font-size: 300%;
     font-weight: bold;
 }
-
 .sectionOnetagLine {
     font-size: 160%;
     word-spacing: 1px;
     letter-spacing: 0.1px;
 }
-
 .jumbotron {
     background-color: transparent;
     margin-left: 8vw;
 }
-
-.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+.btn-primary.active,
+.btn-primary:active,
+.open>.dropdown-toggle.btn-primary {
     margin: 2% 0.5%;
     height: 6vh;
     border-radius: 5px;
 }
-
 .btn-primary.active:hover {
     background-color: #c0392b;
 }
-
 a {
-  color: black;
+    color: black;
 }
-
-a:focus, a:hover{
+a:focus,
+a:hover {
     color: black;
     text-decoration: none;
 }
-
 nav {
-  height: 0;
+    height: 0;
 }
-
 nav ul a:hover {
     background-color: #b71c1c;
     color: white;
 }
-
-.side-nav a:hover{
+.side-nav a:hover {
     background-color: #b71c1c;
 }
-
 .sectionTwoHeader {
     text-align: center;
     font-size: 350%;
     padding: 2%;
     font-weight: bold;
-
 }
-
 .sectionSevenTagline {
     text-align: left;
     font-size: 200%;
     padding: 4%;
     font-weight: bold;
 }
-
 .sectionTwoTagline {
     text-align: center;
     font-size: 200%;
-
 }
-
 .gridSectionTwo {
     margin: 0 auto;
     padding: 1%;
 }
-
 .gridCol {
     text-align: center;
     padding: 5%;
 }
-
 .sectionTwoImageHeadline {
     padding: 5%;
     font-weight: bold;
     font-size: 120%;
 }
-
 .sectionTwoImagetagline {
     font-size: 110%;
     color: gray;
 }
-
 .sectionTwoJoinUs {
     font-size: 150%;
     color: gray;
     text-align: center;
     padding: 1%;
 }
-
 .menu {
     margin-right: 0;
 }
-
-
 .activitiesCard {
-  margin: 10%;
+    margin: 10%;
 }
-
 .activityName {
     padding: 3%;
     font-size: 150%;
@@ -177,84 +139,70 @@ nav ul a:hover {
     color: black;
     transition: 0.2s ease-in;
 }
-
 .activityName:hover,
 .activityName:active {
-  color: #b71c1c;
-  transition: 0.2s ease-in;
-
+    color: #b71c1c;
+    transition: 0.2s ease-in;
 }
-
 .activityDate {
-  padding: 2%;
+    padding: 2%;
 }
-
 .card {
     background-color: transparent;
     margin: 5%;
     box-shadow: none;
 }
-
-
 .white-text {
     height: 150px;
 }
-
 .card .card-action {
-  border: 0;
+    border: 0;
 }
-
 .gridImage {
-  width: 100%; /* or any custom size */
+    width: 100%;
+    /* or any custom size */
+
     height: 100%;
     object-fit: contain;
 }
-
 .imageStuff {
-  margin-top: 1%;
+    margin-top: 1%;
 }
-
 .img-circle {
-  height: 247px;
+    height: 247px;
 }
-
 /* label focus color */
-  input[type=email]:focus:not([readonly])+ label {
+
+input[type=email]:focus:not([readonly])+ label {
     color: #000;
 }
 /* label underline focus color */
-  input[type=email]:focus:not([readonly]) {
+
+input[type=email]:focus:not([readonly]) {
     border: none;
-  }
-
-.socialLinks {
-  text-align: left;
-  padding: 4%;
 }
-
-
+.socialLinks {
+    text-align: left;
+    padding: 4%;
+}
 @media only screen and (max-width: 1024px) {
     body {
-      font-family: 'Lato', sans-serif;
-      font-size: 10px;
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
     }
-
     .jumbotron {
         background-color: transparent;
         margin: -5vh 0 0 2vw;
         padding: 1%;
     }
-
     .logo {
-      padding: 8%;
-      margin-left: 0vw;
+        padding: 8%;
+        margin-left: 0vw;
     }
-
     .sectionSeven {
-      padding: 10% 4% 0 4%;
+        padding: 10% 4% 0 4%;
     }
-
     .img-circle {
-      height: 210px;
+        height: 210px;
     }
 }

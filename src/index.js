@@ -61,7 +61,15 @@ var gridOne = [
   Navigating,
   Steward
 ];
-var gridTwo = [Nevada, PointReyes, Yosemite, Alaska, ZCanyon, GrandCanyon];
+
+var gridTwo = [
+  Nevada,
+  PointReyes,
+  Yosemite,
+  Alaska,
+  ZCanyon,
+  GrandCanyon
+];
 
 var logoShow = <Image className="logo" src={Logo} responsive />;
 
